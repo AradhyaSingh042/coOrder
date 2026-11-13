@@ -3,20 +3,19 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --co-orange: #F97316;
+  --co-orange-light: #FFF7ED;
+  --co-dark: #1E293B;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-co-orange: var(--co-orange);
+  --color-co-orange-light: var(--co-orange-light);
+  --color-co-dark: var(--co-dark);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
